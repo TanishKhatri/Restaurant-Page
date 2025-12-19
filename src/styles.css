@@ -8,6 +8,9 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(assets/PapasPizzeriaBackground.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 .logoImage {
@@ -19,4 +22,13 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.logoContainer {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
