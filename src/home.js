@@ -14,7 +14,7 @@ function createHomeDiv() {
 
   const welcomeSpan2 = document.createElement("span");
   welcomeSpan2.classList.add("welcome");
-  welcomeSpan2.textContent = "This is Roy, Papa Louie has trusted him with his beloved pizzeria, and now it’s up to you to keep the ovens hot and the customers happy! Step behind the counter and take control of every part of the pizza-making process—from writing down orders to topping, baking, and slicing each pizza to perfection. Every customer has their own tastes, and it’s your job to get every detail just right.";
+  welcomeSpan2.innerHTML = `This is Roy, Papa Louie has trusted him with his beloved pizzeria, and now it’s up to him to keep the ovens hot and the customers happy! <br> <br> Problem is he has no cooking experience! If you want burned pizzas and far more change then you need come to Papa's Pizzeria and enjoy your meal!`;
   
   homeDiv.appendChild(welcomeSpan1);
   homeDiv.appendChild(breakElement);
