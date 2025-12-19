@@ -26,3 +26,6 @@ function createEventListeners(homeDiv, menuDiv, aboutDiv) {
 }
 
 createEventListeners(homeDiv, menuDiv, aboutDiv);
+
+const contentDiv = document.querySelector("#content");
+contentDiv.appendChild(homeDiv);
