@@ -1,6 +1,7 @@
 import { homeDiv } from "./home";
 import { menuDiv } from "./menu";
 import { aboutDiv } from "./about";
+import "./styles.css";
 
 function createEventListeners(homeDiv, menuDiv, aboutDiv) {
   const homeButton = document.querySelector("#homeButton");
